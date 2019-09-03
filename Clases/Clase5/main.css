@@ -1,0 +1,72 @@
+:root{
+    font-size: calc(0.5em +1vw);
+}
+*, ::before, ::after{
+    box-sizing: inherit;
+    margin: 0px;
+    padding: 0px;
+
+    }
+
+body{
+    box-sizing: border-box;
+}
+
+header{
+    background-color: rgba(0, 0, 0, 0.247);
+    padding: 1rem;
+    height: 50px; /* quedan igual altura*/
+}
+/* fontawesome se copia el kit en el body
+los iconos se ponen con etiqueta i*/
+
+.brand{
+    color;
+    margin:;
+    paddingfont-family;
+    text.transform;
+}
+
+/* para poner iconos*/
+
+.brand::before{
+    content: ''
+}
+
+/*poner listas de nav de manera horizontal  clear fix css*/
+nav{
+    height: 50px;
+    background-color: blue; 
+}
+
+nav il {
+    background-color: blue;
+    display: inline-block;
+    width: 33.33%;
+    float: left;
+    height: 100%;
+    overflow: auto;
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+    line-height: 1.5 rem;
+}
+
+/*personalizar big hero*/
+.big-hero{
+    height: cal(100%vh - 100px);
+    background-image: url();
+    background-image: cover;
+
+}
+
+/*alinear texto y centrar verticalmente*/
+.big-hero div{
+  
+}
+
+/*lobotomized owls
+*+* */
+
+
+
