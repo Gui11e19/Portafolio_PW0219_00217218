@@ -1,0 +1,122 @@
+.btn4 {
+  background: rgba(72, 8, 190, 0.521);
+}
+
+.btn5 {
+  background: rgba(250, 1, 196, 0.308);
+}
+
+.btn3, .btn4, .btn5 {
+  border: 1px solid transparent;
+  border-radius: 0.3em;
+  -webkit-box-shadow: null;
+          box-shadow: null;
+  padding: 1em;
+  opacity: 0.9;
+  text-transform: uppercase;
+  margin: 0.5em;
+}
+
+.btn4:hover {
+  opacity: 2.0;
+  background: rgba(72, 8, 190, 0.849);
+}
+
+.btn5:hover {
+  opacity: 2.0;
+  background: rgba(250, 1, 196, 0.76);
+}
+
+.cont3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body {
+  background-image: url(../imagenes/space.jpg);
+  background-repeat: no-repeat;
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+
+.cont2 {
+  display: flexbox;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  margin: 10px 13em;
+  text-align: center;
+  padding: 15em;
+  size: 15em;
+}
+
+h1 {
+  font-family: 'Roboto Mono', monospace;
+  color: black;
+  text-transform: capitalize;
+  font-weight: bold;
+  background: rgba(105, 79, 139, 0.603);
+  width: 300px;
+  text-align: center;
+  margin: auto;
+}
+
+img {
+  width: 6em;
+  border-radius: 50%;
+  margin: 8px;
+}
+
+.btn1 {
+  background: rgba(170, 9, 36, 0.507);
+}
+
+.btn2 {
+  background: rgba(62, 78, 218, 0.486);
+}
+
+.btn3 {
+  background: rgba(194, 67, 8, 0.37);
+}
+
+.btn1:hover {
+  opacity: 2.0;
+  background: rgba(170, 9, 36, 0.897);
+}
+
+.btn2:hover {
+  opacity: 2.0;
+  background: rgba(62, 78, 218, 0.904);
+}
+
+.btn3:hover {
+  opacity: 2.0;
+  background: rgba(194, 67, 8, 0.801);
+}
+
+.btn1, .btn2, .btn3 {
+  border: 1px solid transparent;
+  border-radius: 0.3em;
+  -webkit-box-shadow: null;
+          box-shadow: null;
+  padding: 1em;
+  opacity: 0.9;
+  text-transform: uppercase;
+  margin: 0.5em;
+}
+
+.cont1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+/*# sourceMappingURL=styles.css.map */

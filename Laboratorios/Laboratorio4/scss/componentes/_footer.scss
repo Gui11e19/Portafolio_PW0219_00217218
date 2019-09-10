@@ -1,0 +1,31 @@
+.btn4{
+    background: rgba(72, 8, 190, 0.521);
+}
+.btn5{
+    background: rgba(250, 1, 196, 0.308);
+}
+ .btn3, .btn4 , .btn5{
+    border: 1px solid transparent;
+    border-radius: 0.3em;
+    box-shadow: null;
+    padding: 1em;
+    opacity: 0.9;
+    text-transform: uppercase;
+    margin: 0.5em;
+    }
+
+ 
+    .btn4:hover{
+        opacity: 2.0;
+        background: rgba(72, 8, 190, 0.849);
+    }
+    .btn5:hover{
+        opacity: 2.0;
+        background: rgba(250, 1, 196, 0.76);
+    }
+
+    .cont3{
+        display: flex;
+        justify-content: space-between;
+    
+    }
