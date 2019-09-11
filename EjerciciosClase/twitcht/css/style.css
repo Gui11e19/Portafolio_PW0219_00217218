@@ -1,0 +1,50 @@
+.contenedor_global{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 3fr));
+    grid-auto-rows: 4.80rem;
+    grid-auto-flow: row dense;
+    background: black;
+    box-sizing: border-box;
+}
+
+.navbar{
+    grid-area: span 1/ span 3;
+    display: flex;
+    background: rgb(102, 6, 158);
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search{
+    padding: 0.5rem;
+}
+
+.btn{
+    padding: 1.8rem;
+    background: rgb(102, 6, 158);
+    border: 0rem;
+}
+
+.btn:hover{
+    background: rgb(49, 2, 77);
+}
+
+.sidebar{
+    grid-area: 2/ 1/span 11 / span 1 ;
+    background: blue;
+    overflow: scroll;
+}
+
+.main{
+    overflow: scroll;
+    grid-area: 2/2/ span 11 / span 2;
+    background: rgb(2, 2, 17);
+
+    color: white;
+}
+
+.p{
+    padding: 10px;
+    margin: 50px;
+    text-align: center;    
+}
