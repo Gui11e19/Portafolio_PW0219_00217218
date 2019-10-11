@@ -4,8 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="/Tareas/accidentes/bootstrap.css">
-    <link rel="stylesheet" href="/Tareas/accidentes/main.css">
+    <link rel="stylesheet" href="../accidentes3/bootstrap.css">
     <title>Journal</title>
 </head>
 <body>
@@ -26,10 +25,21 @@
         
         <br>
         <label for="evento" class="col-sm-2 col-form-label">Evento: </label>  <input class="form-group" type="text" name="plainText" placeholder="Comer" id="event_field"> 
-        <br>ls
+        <br>
     </div>
     
-    
+    <div class="form-group">
+        <label for="schedule">Seleccione el horario:</label>
+        <select name="schedule" class="form-control" id="schedule_field">
+            <option>Lunes </option>
+            <option>Martes</option>
+            <option>Miércoles</option>
+            <option>Jueves</option>
+            <option>Viernes</option>
+            <option>Sabado</option>
+            <option>Domingo</option>
+        </select>
+    </div>
 
 
     <div class="form-group">
@@ -38,15 +48,11 @@
                 <label class="custom-control-label" for="accid_switch">Hubo algun accidente?</label>
             </div>
     </div>
-
-    <div class="form-group">
-        <button type="button" class="btn btn-danger" id="addEvent_btn" disabled>Nuevo Evento</button>
-    </div>
     
     <div class="form-group">
         <button type="button" class="btn btn-danger" id="submitEvents_btn" disabled>Nuevo Dia</button>
     </div>
-    </div>  
+    
 
 </fieldset>
 
@@ -70,7 +76,9 @@
 
 </div>
 
+</div>
 
-<script src="/Tareas/accidentes/main.js"></script>
+<script src="../accidentes3/main.js"></script>
+
 </body>
 </html>

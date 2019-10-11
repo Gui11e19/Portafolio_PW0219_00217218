@@ -7,9 +7,9 @@ function repeat(n,action){
   /*Ejercicio 6 Ordenamiento de array: Crear una función en JavaScript que ordene los 
 elementos de un Array en orden ascendente.*/
 
-function ordenarAscendente(array = [1,8,6,2,4,5]){
+function ordenarAscendente(array){
     let a,b;
-    for(j=0; j < array.length -1 < j++){
+    for(j=0; j < array.length; j++){
         for(i=0; i < array.length -1; i++){
             if(array[i] > array[i+1]){
                 a = array[i];
