@@ -1,0 +1,44 @@
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: calc(0.5em + 1vh);
+}
+
+body{
+    background-color: rgb(8, 20, 92);
+}
+/* El estilo base para moviles */
+
+
+section h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.art_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10rem;
+
+}
+
+art_
+/* Personalizando estilo para tablets*/
+@media only screen and (min-width: 768px) {
+
+} 
+
+
+/* Personalizando estilo para pantallas*/
+@media only screen and (min-width: 1024px) {
+
+
+}
+
+@media only screen and (min-width: 1440px) {
+
+
+}

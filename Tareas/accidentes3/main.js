@@ -1,7 +1,6 @@
 
 window.addEventListener("load",()=>{
     let event_field = document.querySelector("#event_field");
-    let calendar_dropdown = document.querySelector("#calendar_dropdown");
     let accid_switch = document.querySelector("#accid_switch");
     let addEvents_btn = document.querySelector("#addEvents_btn");
     let submitEvents_btn = document.querySelector("#submitEvents_btn");
@@ -32,9 +31,9 @@ window.addEventListener("load",()=>{
     }
     
     
-    let journal = (evento) => {
-         journalL.push(evento);
-         console.log(evento);
+    let addJournal = (evento,schedule,accid) => {
+         journalL.push(evento,schedule,accid);
+         console.log(evento,schedule,accid);
     }
     
     submitEvents_btn.addEventListener("click", ()=>{
@@ -44,7 +43,7 @@ window.addEventListener("load",()=>{
     
         if(event_regex.test(event)){
             addEvent(event, schedule, accid);
-            journal(event);
+            addJournal(event,schedule,accid);
         } else {
             alert("Formato del evento no valido");
         }
@@ -65,15 +64,6 @@ window.addEventListener("load",()=>{
         }
     })
     
-    event_field.addEventListener("click", ()=>{
-        let event = event_field.value.split(",");
-        let accid = parseAccidSwitch(accid_switch.checked);
-    
-        if(event_regex.test(event)){
-            addEvent(event, accid);
-        } else {
-            alert("Formato del evento no valido");
-        }
-    })
+
 })
 
