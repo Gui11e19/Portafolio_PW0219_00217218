@@ -13,7 +13,7 @@ let addStudent = (carnet, schedule, late) =>{
     new_row.className="table_active"
     new_row.innerHTML = `<th scope='row'>${carnet}</th>
     <td>${schedule}</td>
-    <td>${datetime.toLocaleString}</td>
+    <td>${datetime}</td>
     <td>${late}</td>
     `;
 
@@ -42,9 +42,7 @@ submit_btn.addEventListener("click", ()=>{
     }
 })
 
-let journal (journalL) =>{
 
-}
 
 carnet_field.addEventListener("keyup", (event)=>{
     let keyCode = event.keyCode;
