@@ -1,15 +1,69 @@
 
-header{
+div.art_front{
     display: flex;
     justify-content: center;
     align-items: center; 
+    
 }
+
+
+
+div.art_container{
+display: grid;
+grid-template-columns: repeat(8, minmax(272px,2fr));
+grid-auto-rows: 4.8rem;
+grid-auto-flow: row dense;
+height: 100%;
+}
+
+aside{
+    grid-area: 1/1/span 11/span 1;
+    background-color: rgb(87, 87, 87);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+aside ul li.art_avatar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0rem;
+
+}
+aside ul img{
+    height: 4rem;
+}
+aside ul{
+    background-color:rgb(85, 85, 85);
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding-left: 0rem;
+}
+
+aside ul li{
+    list-style: none;
+    padding: 2.3rem;
+    padding-left: 2rem;
+    
+}
+aside ul li.menu:hover{
+    background-color:rgba(19, 18, 18, 0.438);
+    
+}
+
 
 section.art_area{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-right: 2rem;
+    padding: 0rem 10rem 0rem 10rem;
+    grid-area: 1/2/span 12  / span 6;
+    overflow: scroll;
+    flex-direction: column;
+    
 }
 
 section.art_area ul li article img{
@@ -18,7 +72,7 @@ section.art_area ul li article img{
 }
 
 section.art_area ul{
-    list-style: circle;
+    list-style: none;
 }
 
 section.art_area ul li p{ 
@@ -33,13 +87,45 @@ section.art_area ul li h2{
 
 section.art_area ul li{
     max-width: 100%;
-    max-height: 700px;
-    background-color: rgb(66, 66, 75);
+    max-height: 850px;
+    background-color: rgb(85, 85, 85);
     border-radius: 2rem;
-    
-
 }
+
 
 section.art_area ul li p{
     text-align: justify;
+}
+
+footer{
+    background-color: rgb(85, 85, 85);
+    width: 119rem;
+    height: 6rem;
+    grid-area: 12/1/span 1/ span 1;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+
+footer div{
+    display: flex;
+    flex-direction: row;
+}
+
+footer p{
+ font-size: 0.8rem;
+}
+
+footer div i.fab{
+    margin: 1.5rem 1rem 0rem 0rem;
+    font-size: 2rem;
+}
+
+footer div i.fas{
+    margin: 1.5rem 1rem 0rem 1rem;
+    font-size: 2rem;
 }
