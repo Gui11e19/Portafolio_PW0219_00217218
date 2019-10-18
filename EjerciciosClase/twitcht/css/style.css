@@ -1,4 +1,4 @@
-.contenedor_global{
+    .contenedor_global{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 3fr));
     grid-auto-rows: 4.80rem;
